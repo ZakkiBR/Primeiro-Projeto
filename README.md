@@ -19,7 +19,7 @@ Inspirado no projeto DevLinks da Rocketseat e feito pra minha Esposa. <br/>
 <br>
 
 <p align="center">
-  <img alt="Primeiro projeto" src=".git hub/preview.jpg" width="100%">
+  <img alt="Primeiro projeto" src=".github/pré-visualização.JPG" width="100%">
 </p>
 
 ## 🚀 Tecnologias
