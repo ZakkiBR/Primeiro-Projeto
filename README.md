@@ -1,52 +1,79 @@
-<h1 align="center"> First Project</h1>
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link 
+    href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,500&display=swap" 
+    rel="stylesheet"
+  />
 
-<p align="center">
-Inspirado no projeto DevLinks da Rocketseat e feito pra minha Esposa. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Vídeo ensinando sobre clicando aqui.</a>
-</p>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nicole Berling</title>
+    <link rel="stylesheet" href="./style.css">
+  </head>
+  <body> 
+   <div id="container">
+     <div id="profile">
+        <img 
+          src="./assets/avatar.png" 
+          alt="Foto de Nicole Berling, que está de camiseta bage, e oculos de grau, com seus cachinhos dourados
+        ">
+        <p>@nicoleberlingnails</p>
+      </div>
 
-<p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+      <div id="switch" onclick="toggleMode()">
+        <button></button>
+        <span></span>
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+      </div>
 
-<br>
+      <ul>
+        <li>
+          <a href="https://maps.app.goo.gl/XHDN869VHdHR81PW7" target="_blank ">Meu local</a>
+        </li>
 
-<p align="center">
-  <img alt="Primeiro projeto" src=".github/preview.JPG" width="100%">
-</p>
+        <li>
+          <a href="#">-----------
 
-## 🚀 Tecnologias
+          </a>
+        </li>
 
-Esse projeto foi desenvolvido com as seguintes tecnologias:
+        <li>
+          <a href="https://github.com/maykbrito">Ver meu portifólio</a>
+        </li>
 
-- HTML e CSS
-- JavaScript
-- Git e Github
-- Figma
+        <li>
+          <a href="https://rocketseat.com.br/explorer" target="_blank">Conheça o Explorer</a>
+        </li>
+        
+      </ul>
+      <div id="social-links">
+          <a href="https://www.instagram.com/nicoleberlingnails" target="_blank">
+            <ion-icon name="logo-instagram"></ion-icon>
+          </a>
 
-## 💻 Projeto
+          <a href="https://api.whatsapp.com/message/M4DEYFLIHZBJP1?autoload=1&app_absent=0" target="_blank">
+            <ion-icon name="logo-whatsapp"></ion-icon>
+          </a>
+      </div>
 
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+      <footer>
+        Feito com ♥ pelo meu <a href="https://instagram.com/_arthur.cross">esposo</a>
+      </footer>
+    </div>
 
-- [Acesse o projeto finalizado, online](https://maykbrito.github.io/devlinks)
+    <script 
+      type = "module"
+      src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js" 
+    ></script> 
+    <script  
+      nomodule  
+      src = "https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js" 
+    ></script>
 
-- [Assistir aulas](https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito)
+    <script src="./script.js"></script>
 
-## 🔖 Layout
-
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
-
-## :memo: Licença
-
-Esse projeto está sob a licença MIT.
-
----
-
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+  </body>
+</html>
